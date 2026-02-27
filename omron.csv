@@ -1,4 +1,18 @@
 Fecha,Hora,Sistólica (mmHg),Diastólica (mmHg),Pulso (ppm),Síntomas,Consumido,TruRead,Se detectó latido arrítmico,Movimiento corporal,Guía de envoltura del manguito,Indicador de posicionamiento,Modo de medición,Error n.º,Posible AFib,Dispositivo,Notas
+23 feb. 2026,21:07,101,64,65,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+23 feb. 2026,21:06,118,63,54,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+23 feb. 2026,21:05,125,70,61,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+22 feb. 2026,19:49,122,72,53,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+22 feb. 2026,19:46,121,71,54,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+22 feb. 2026,19:43,128,79,59,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+22 feb. 2026,11:54,116,75,60,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+22 feb. 2026,11:53,118,80,63,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+19 feb. 2026,20:20,129,74,52,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+19 feb. 2026,20:18,128,79,52,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+19 feb. 2026,20:16,131,85,54,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+06 feb. 2026,16:55,119,76,66,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+06 feb. 2026,16:50,122,80,66,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+04 feb. 2026,18:45,135,79,59,-,-,-, , , , , ,-, ,X4 Connect AFib,-
 04 feb. 2026,08:50,132,75,64,-,-,-, , , , , ,-, ,X4 Connect AFib,-
 04 feb. 2026,08:48,130,78,57,-,-,-, , , , , ,-, ,X4 Connect AFib,-
 04 feb. 2026,08:45,148,79,62,-,-,-, , , , , ,-, ,X4 Connect AFib,-
@@ -54,4 +68,11 @@ Fecha,Hora,Sistólica (mmHg),Diastólica (mmHg),Pulso (ppm),Síntomas,Consumido,
 21 ene. 2026,23:33,123,79,54,-,-,-, , , , , ,-, ,X4 Connect AFib,-
 21 ene. 2026,18:10,123,85,55,-,-,-, , , , , ,-, ,X4 Connect AFib,-
 21 ene. 2026,18:09,126,84,54,-,-,-, , , , , ,-, ,X4 Connect AFib,-
+
+Fecha,Total de pasos,Distancia total (mi),Total de calorías (kcal),Fuente
+
+Fecha,Hora,Peso (kg),IMC,Categoría,Metabolismo en reposo,% de músculo esquelético,% de grasa corporal,Nivel de grasa visceral
+03 ene. 2026,09:35,77,"0,0",Peso insuficiente,-,-,-,-
+
+Fecha,Hora,Temperatura,Unidad de temperatura
 

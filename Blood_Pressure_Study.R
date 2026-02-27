@@ -1,13 +1,16 @@
 library(ggplot2)
 library(dplyr)
 
-# --- PASO 1: CARGA Y LIMPIEZA DE DATOS ---
+datos_raw <- read.csv("omron.csv", check.names = FALSE)
 
-# Cargar el archivo CSV
-datos_raw <- read.csv("omron.csv", check.names = FALSE, encoding = "UTF-8", stringsAsFactors = FALSE)
-
-# Procesar los datos
 datos <- datos_raw %>%
+  # Convertir columnas numéricas primero para eliminar encabezados repetidos
+  mutate(
+    `Sistólica (mmHg)`  = suppressWarnings(as.numeric(`Sistólica (mmHg)`)),
+    `Diastólica (mmHg)` = suppressWarnings(as.numeric(`Diastólica (mmHg)`)),
+    `Pulso (ppm)`       = suppressWarnings(as.numeric(`Pulso (ppm)`))
+  ) %>%
+  filter(!is.na(`Sistólica (mmHg)`)) %>%  # Elimina filas de encabezados repetidos
   mutate(
     # Crear fecha combinada
     fecha_temp = paste(Fecha, Hora),
